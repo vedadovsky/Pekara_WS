@@ -65,7 +65,7 @@
                     <div class="d-flex flex-column flex-wrap">
                         <div class="border_bot"> <i class="fas fa-map-marker-alt" style="color: gray; font-size: 16px; padding-bottom: 5px; padding-top: 45px;">  Adresa:</i>
                             <br>
-                            <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Vratnik, Sarajevo 71000, Bosna i Hercegovina</a>
+                            <a href="./aboutUs.php#timeAndlocation" class="font-rale font-size-14 text-white-50 pb-1">Vratnik, Sarajevo 71000, Bosna i Hercegovina</a>
                         </div>
                         <div style="padding-top: 20px;">
                             <i class="fas fa-phone-alt" style="color: gray; font-size: 16px;  padding-bottom: 10px;">  Telefon:</i>

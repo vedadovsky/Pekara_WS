@@ -2,9 +2,6 @@
 
 /*              Sass Template           */
 
-
-/*  global classes  */
-
 hr {
     height: 1px;
     background-color: #ccc;
@@ -65,9 +62,6 @@ body {
 .container {
     scroll-behavior: smooth;
 }
-
-
-/* typography classes */
 
 .font-baloo {
     font-family: "Baloo Thambi 2", cursive;
@@ -188,9 +182,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-/* Color Template  */
-
 .section {
     scroll-behavior: smooth;
 }
@@ -231,9 +222,6 @@ body {
 .white {
     color: white
 }
-
-
-/*  top sale template   */
 
 #top-sale .owl-carousel .item .product a {
     overflow: hidden;
@@ -276,13 +264,7 @@ body {
     margin-right: -4rem;
 }
 
-
-/*   Special Price Section Template */
-
 #special-price .grid .grid-item {
     margin-right: 1.2rem;
     margin-top: 1rem;
 }
-
-
-/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,4 @@
 
- <!-- Blogs -->
  <section id="blogs" class="white">
             <div class="container py-4">
                 <h4 class="font-rubik font-size-20">Novosti</h4>
@@ -33,5 +32,5 @@
                 </div>
             </div>
         </section>
-        <!-- !Blogs -->
+ 
 

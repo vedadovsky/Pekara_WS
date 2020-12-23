@@ -27,7 +27,7 @@
 </head>
 
 <body>
-  <!-- start #header -->
+
   <header id="header">
         <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
             <p class="font-rale font-size-12 text-black-50 m-0"><a href="tel:0038762411268" class="font-rale font-size-12 text-black-50 m-0">Vratnik, Sarajevo 71000, Bosna i Hercegovina, (+387)62-411-268</a></p>
@@ -37,7 +37,6 @@
             </div>
         </div>
 
-        <!-- Primary Navigation -->
         <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
             <img class="navbar-img" src="./assets/zeljo_logo.png">
             <a class="navbar-brand" href="./index.php">Pekara Željo</a>
@@ -53,7 +52,7 @@
                         <a class="nav-link" href="#top-sale">Proizvodi <i class="fas fa-chevron-down"></i></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">O nama</a>
+                        <a class="nav-link" href="./aboutUs.php">O nama</a>
                     </li>
                     <li class="nav-item gore">
                         <a class="scrollMe nav-link" href="#footer">Kontaktirajte nas</a>
@@ -72,10 +71,8 @@
                 </form>
             </div>
         </nav>
-        <!-- !Primary Navigation -->
+ 
 
     </header>
-    <!-- !start #header -->
 
-<!-- start #main-site -->
 <main id="main-site">

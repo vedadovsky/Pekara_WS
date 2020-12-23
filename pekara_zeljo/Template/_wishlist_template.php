@@ -1,4 +1,4 @@
-<!-- Shopping cart section  -->
+
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     if (isset($_POST['delete-cart-submit'])){
@@ -15,7 +15,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     <div class="container-fluid w-75">
         <h5 class="font-baloo font-size-20">Wishlist</h5>
 
-        <!--  shopping cart items   -->
         <div class="row">
             <div class="col-sm-9">
                 <?php
@@ -23,14 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                     $cart = $product->getProduct($item['item_id']);
                     $subTotal[] = array_map(function ($item){
                         ?>
-                        <!-- cart item -->
                         <div class="row border-top py-3 mt-3">
                             <div class="col-sm-2">
                                 <img src="<?php echo $item['slika'] ?? "./assets/products/1.png" ?>" style="height: 120px;" alt="cart1" class="img-fluid">
                             </div>
                             <div class="col-sm-8">
                                 <h5 class="font-baloo font-size-20"><?php echo $item['name'] ?? "Unknown"; ?></h5>
-                                <!-- product rating -->
                                 <div class="d-flex">
                                     <div class="rating text-warning font-size-12">
                                    <?php echo $item['ocjena']?>
@@ -38,9 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                                     <a href="#" class="px-2 font-rale font-size-14">2,388+ naruđbi</a>
                                     
                                 </div>
-                                <!--  !product rating-->
 
-                                <!-- product qty -->
                                 <div class="qty d-flex pt-2">
 
                                     <form method="post">
@@ -55,7 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
                                 </div>
-                                <!-- !product qty -->
 
                             </div>
 
@@ -65,21 +59,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                                 </div>
                             </div>
                         </div>
-                        <!-- !cart item -->
                         <?php
                         return $item['item_price'];
-                    }, $cart); // closing array_map function
+                    }, $cart); 
                 endforeach;
                 ?>
             </div>
         </div>
-        <!--  !shopping cart items   -->
     </div>
     <?php
     
-    /*  include top sale section */
+    //  include top sale section 
     include ('Template/_top-sale.php');
-    /*  include top sale section */
     ?>
 </section>
-<!-- !Shopping cart section  -->

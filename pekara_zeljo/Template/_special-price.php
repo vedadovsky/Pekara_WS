@@ -1,14 +1,12 @@
-<!-- Special Price -->
+
 <?php
     $brand = array_map(function ($pro){ return $pro['vrsta']; }, $product_shuffle);
     $unique = array_unique($brand);
     sort($unique);
     shuffle($product_shuffle);
 
-// request method post
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if (isset($_POST['special_price_submit'])){
-        // call method addToCart
         $Cart->addToCart($_POST['user_id'], $_POST['item_id']);
     }
 }
@@ -16,7 +14,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 $in_cart = $Cart->getCartId($product->getData('cart'));
 
 ?>
-        <!-- Izabrano za vas -->
         <section id="special-price" class="white">
     <div class="container">
         <h4 class="izv font-rubik font-size-20 white">U ponudi</h4>
@@ -62,4 +59,3 @@ $in_cart = $Cart->getCartId($product->getData('cart'));
         </div>
     </div>
 </section>
-<!-- !Special Price -->
