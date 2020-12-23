@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+
+/*              Sass Template           */
+
+
+/*  global classes  */
+
+hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none;
+}
+
+.border_bot {
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-top: -15px;
+}
+
+.izv {
+    float: left;
+    margin-top: 5px;
+}
+
+.kolicina li {
+    list-style-type: none;
+}
+
+button,
+button:focus {
+    color: white;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: #1f2255;
+    color: white !important;
+}
+
+.btn {
+    color: #1f2255;
+}
+
+.btn-color {
+    color: #ffc107;
+}
+
+.btn-color:hover {
+    color: #ffc107
+}
+
+.is-checked {
+    color: white;
+}
+
+.yellow {}
+
+body {
+    background-color: #1f2255;
+}
+
+
+/* typography classes */
+
+.font-baloo {
+    font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+    font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+    font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.font-size-20 {
+    font-size: 20px;
+}
+
+.wpcf7-form input.wpcf7-text {
+    padding: 6px !important;
+    padding-left: 40px !important;
+}
+
+.widget .wpcf7-form input {
+    width: 100%;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    overflow: hidden;
+}
+
+.wpcf7-form-control-wrap textarea {
+    background-color: #181828;
+    border: 1px solid #394050;
+}
+
+.ul-dodatci {
+    list-style-type: none;
+}
+
+.li-dodatci {
+    display: inline-block;
+}
+
+.input-dodatci[type="checkbox"][id^="cb"] {
+    display: none;
+}
+
+.label-dodatci {
+    border: 1px solid #fff;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.label-dodatci::before {
+    background-color: white;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    border: 1px solid grey;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+.label-dodatci img {
+    height: 70px;
+    width: 70px;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+ :checked+.label-dodatci {
+    border-color: #ddd;
+}
+
+ :checked+.label-dodatci::before {
+    content: "✓";
+    background-color: #ffc107;
+    transform: scale(1);
+}
+
+ :checked+.label-dodatci img {
+    transform: scale(0.9);
+    box-shadow: 0 0 5px #333;
+    z-index: -1;
+}
+
+
+/* Color Template  */
+
+.color-primary {
+    color: #003859;
+}
+
+.color-primary-bg {
+    background: #1f2255;
+}
+
+.color-second {
+    color: #1f2255;
+}
+
+.color-second-bg {
+    background: #1f2255;
+}
+
+.color-yellow {
+    color: #FFD289;
+}
+
+.color-yellow-bg {
+    background: #FFD289;
+}
+
+.card-img-top {
+    height: 230px;
+}
+
+.navbar-img {
+    height: 40px;
+    padding-right: 10px;
+}
+
+.white {
+    color: white
+}
+
+
+/*  top sale template   */
+
+#top-sale .owl-carousel .item .product a {
+    overflow: hidden;
+}
+
+#top-sale .owl-carousel .item .product img {
+    transition: transform 0.5s ease;
+}
+
+#top-sale .owl-carousel .item .product img:hover {
+    transform: scale(1.1);
+}
+
+#top-sale .owl-carousel .owl-nav button {
+    position: absolute;
+    top: 30%;
+    outline: none;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+    left: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span,
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    font-size: 35px;
+    color: white;
+    padding: 0 1rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+    margin-left: -4rem;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next {
+    right: 0;
+}
+
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+    margin-right: -4rem;
+}
+
+
+/*   Special Price Section Template */
+
+#special-price .grid .grid-item {
+    margin-right: 1.2rem;
+    margin-top: 1rem;
+}
+
+
+/*# sourceMappingURL=style.css.map */
